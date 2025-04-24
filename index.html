@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <!-- Main Content Section -->
+    <header>
+        <h1>Advanced HTML5 Elements and Forms</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>Introduction to HTML5</li>
+            <li>Advanced Forms</li>
+            <li>Semantic Elements</li>
+            <li>Multimedia Integration</li>
+            <li>Form Validation</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/1048271/pexels-photo-1048271.jpeg" alt="Nature Image" width="500">
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+        <h2>Contacts Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>1234 Elm Street, NY</td>
+                    <td>(123) 456-7890</td>
+                    <td>johndoe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>5678 Oak Avenue, LA</td>
+                    <td>(987) 654-3210</td>
+                    <td>janesmith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alex Johnson</td>
+                    <td>91011 Pine Lane, SF</td>
+                    <td>(555) 123-4567</td>
+                    <td>alex.johnson@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>1314 Maple Blvd, TX</td>
+                    <td>(333) 789-0123</td>
+                    <td>emilydavis@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Brown</td>
+                    <td>1516 Birch Street, IL</td>
+                    <td>(444) 321-7654</td>
+                    <td>michaelbrown@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+
+            <!-- Gender (Radio Buttons) -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br>
+
+            <!-- Country Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select a country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br>
+
+            <!-- Terms and Conditions (Checkboxes) -->
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                I agree to the Terms and Conditions
+            </label>
+            <br>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Multimedia Elements (Audio and Video) -->
+    <section>
+        <h2>Multimedia Elements</h2>
+
+        <!-- Audio Element -->
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+
+        <!-- Video Element -->
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Advanced HTML5 Forms</p>
+    </footer>
+</body>
+</html>
